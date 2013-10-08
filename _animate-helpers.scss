@@ -3,19 +3,6 @@
 
 // OOCSS helpers for animate.scss that make CSS animations more declarative
 
-// example html usage:
-// a fast fadeout
-// <div class="ani ani-fast fadeOut">
-
-// example css usage:
-// a fadeOut animation with a custom duration
-// .custom-animation {
-// 	@extend .ani;
-//	@extend .fadeOut;
-// 	@include ani-duration(10s);
-// }
-
-// @import "compass";
 
 @mixin trans($time: 1s) {
 	-webkit-transition: all $time cubic-bezier(0.25, 0.46, 0.45, 0.94);
